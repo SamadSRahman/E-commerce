@@ -5,6 +5,7 @@
     display: flex;
 }
 
+
 .thumbnails{   
     width: 25%;
     display: flex;
@@ -29,6 +30,7 @@
     left: 6%;
     top: -1%;
     width: 85%;
+    cursor: pointer;
 }
 .imgBtn{
     background-color: transparent;
@@ -39,6 +41,29 @@
 }
 .leftSection{
     display: flex;
+}
+.imgDiv{
+    border: 1px solid darkgray;
+position: absolute;
+top: 5%;
+z-index: 100;
+background-color: white;
+width: 85%;
+height: 93%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.bigImage{
+    width: 60%;
+    position: relative;
+}
+.imgDiv h4{
+    position: relative;
+    bottom: 45%;
+    left: 77%;
+    z-index: 20;
+    cursor: pointer;
 }
 @media screen and (max-width: 750px) {
 

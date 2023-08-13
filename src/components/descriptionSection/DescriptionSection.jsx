@@ -17,22 +17,26 @@ export default function DescriptionSection() {
   const [img, setImg] = useRecoilState(imgAtom);
   const [displayImg, setDisplayImg] = useRecoilState(displayImgAtom);
   const [imgCount, setImgCount] = useRecoilState(imgCountAtom);
-  const [brand, setBrand] = useState(productData[selectedId].brand);
-  const [productName, setProductName] = useState(productData[selectedId].product);
-  const [productPrice, setProductPrice] = useState(productData[selectedId].price);
-  const [style, setStyle] = useState(productData[selectedId].style);
-  const [color, setColor] = useState(style[0].color);
+  const [brand, setBrand] = useState("");
+  const [productName, setProductName] = useState("");
+  const [productPrice, setProductPrice] = useState("");
+  const [style, setStyle] = useState([]);
+  const [color, setColor] = useState("");
   const [colorIndex, setColorIndex] = useRecoilState(colorIndexAtom);
-    const [size, setSize] = useState(productData[selectedId].style[0].size);
-    const [description, setDescription] = useState(productData[selectedId].style[0].description)
+    const [size, setSize] = useState([]);
+    const [description, setDescription] = useState("")
 
   useEffect(() => {
-    setBrand(productData[selectedId].brand)
+    if (productData.length > 0) {
+      setBrand(productData[selectedId].brand)
     setProductName(productData[selectedId].product)
     setProductPrice(productData[selectedId].price)
     setStyle(productData[selectedId].style)
-    setColor(productData[selectedId].style[colorIndex].color)
-  },[selectedId])
+      setColor(productData[selectedId].style[colorIndex].color)
+      setDescription(productData[selectedId].style[colorIndex].description)
+      setSize(productData[selectedId].style[colorIndex].size)
+  }
+  },[selectedId, productData])
   
   
   function handleSelectColor(index) {

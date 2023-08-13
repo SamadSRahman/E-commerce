@@ -1,21 +1,8 @@
 import { atom } from "recoil";
-export default function getData() {
-    const productData = localStorage.getItem('productData')
-    if (productData) {
-        try {
-            return JSON.parse(productData)
-        }
-            catch {
-                return []
-            }
-        
-    }
-    return []
-}
 
 export const dataAtom = atom({
     key: 'dataAtom',
-    default: getData()
+    default: []
 })
 export const imgAtom = atom({
     key: 'imgAtom',
@@ -36,4 +23,8 @@ export const colorIndexAtom = atom({
 export const selectedIdAtom = atom({
     key: "selectedIdAtom",
     default: 0,
+})
+export const showImgAtom = atom({
+    key: 'showImgAtom',
+    default:false
 })

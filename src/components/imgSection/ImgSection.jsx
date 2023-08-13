@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
-
 import {
   displayImgAtom,
   imgAtom,
@@ -8,58 +7,57 @@ import {
   dataAtom,
   colorIndexAtom,
   selectedIdAtom,
+  showImgAtom,
 } from "../../atoms/atoms";
 import styles from "./imgSection.module.css";
 
 export default function ImgSection() {
-  const selectedId = useRecoilValue(selectedIdAtom)
-  const [productData, setProductData] = useRecoilState(dataAtom);
-  const [colorIndex, setColorIndex] = useRecoilState(colorIndexAtom);
+  const selectedId = useRecoilValue(selectedIdAtom);
+  const productData = useRecoilValue(dataAtom);
+  const colorIndex = useRecoilValue(colorIndexAtom);
   const [img, setImg] = useRecoilState(imgAtom);
   const [displayImg, setDisplayImg] = useRecoilState(displayImgAtom);
   const [imgCount, setImgCount] = useRecoilState(imgCountAtom);
+  const [timeOutId, setTimeOutId] = useState(null);
+  const [showImg, setShowImg] = useRecoilState(showImgAtom)
 
-  // async function getData() {
-  //   try {
-  //     const response = await fetch("../data.json");
-  //     const data = await response.json();
-  //     setProductData(data);
-  //     console.log("Data loaded", data);
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
+  // function startImageChange() {
+  //   const timeout = setTimeout(() => {
+  //     if (imgCount < img.length - 1) setImgCount(imgCount + 1);
+  //     else setImgCount(0);
+  //   }, 3000);
+
+  //   setTimeOutId(timeout);
+
+  //   return () => {
+  //     clearTimeout(timeout);
+  //   };
   // }
-
   // useEffect(() => {
-  //   getData();
+  //   startImageChange();
+  // }, [imgCount]);
 
-  // },[]); // Empty dependency array to run only once
+  // const handleStopCounter = () => {
+  //   clearTimeout(timeOutId);
+  // };
 
-  const timeOut = setTimeout(() => {
-    if (imgCount < img.length - 1) setImgCount(imgCount + 1);
-    else setImgCount(0);
-  
-  },5000)
   useEffect(() => {
     if (productData.length > 0) {
       setImg(productData[selectedId].style[colorIndex].img);
     }
-  }, [productData, imgCount, selectedId]); // Listen for changes in 'shoes' state
+  }, [productData, imgCount, selectedId]);
 
-  useEffect(() =>
-  {
+  useEffect(() => {
     if (productData.length > 0) {
       setDisplayImg(productData[selectedId].style[colorIndex].img[imgCount]);
     }
-   }, [imgCount, selectedId, colorIndex])
+  }, [imgCount, selectedId, colorIndex, productData]);
 
   function handleNextImg() {
-    // clearTimeout(timeOut)
     if (imgCount < img.length - 1) setImgCount(imgCount + 1);
     else setImgCount(0);
   }
   function handlePrevImg() {
-    // clearTimeout(timeOut)
     if (imgCount > 0) setImgCount(imgCount - 1);
     else setImgCount(img.length - 1);
   }
@@ -72,19 +70,41 @@ export default function ImgSection() {
             className={styles.thumbnailsImg}
             onClick={() => {
               setImgCount(index);
-              // clearTimeout(timeOut)
             }}
             src={img}
           ></img>
         ))}
       </div>
       <div className={styles.leftSection}>
-      <button className={styles.imgBtn} onClick={handlePrevImg}>◀</button>
-      <div>
-        <img className={styles.displayImg} src={displayImg}></img>
-      </ div>
-      <button className={styles.imgBtn} onClick={handleNextImg}>▶</button>
-    </div>
+        <button className={styles.imgBtn} onClick={handlePrevImg}>
+          ◀
+        </button>
+        <div>
+          <div className={styles.imgDiv}
+          style={showImg ? {} : { display: 'none' }}
+          >
+            <h4
+              onClick={()=>setShowImg(false)}
+            >❌</h4>
+          <img
+              className={styles.bigImage}
+              style={showImg ? { opacity: '1' } :{}}
+            src={displayImg}  alt="product img" />
+          </div>
+          <img
+            className={styles.displayImg}
+            onClick={() => {
+              setShowImg(!showImg)
+            
+            }}
+       
+            src={displayImg}
+          ></img>
+        </div>
+        <button className={styles.imgBtn} onClick={handleNextImg}>
+          ▶
+        </button>
+      </div>
     </div>
   );
 }
