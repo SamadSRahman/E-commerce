@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "brand": "Power",
+    "product": "POWER SNEAKER FOR MEN",
+    "price":  1250,
+    "style": [
+      {
+        "color": "Blue",
+        "img": [
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9a0381d2/images/large/8399171_1.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw932d117e/images/large/8399171_2.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw5eedcc03/images/large/8399171_3.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwd3a816da/images/large/8399171_5.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9c40b824/images/large/8399171_6.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw81345f27/images/large/8399171_7.jpeg?sw=1634"
+        ],
+        "description": "Rev up your sporty spirit with this pair of trendy Running Shoes from Power. These Men's shoes use the superior Knitted Upper material and Phylon+Rubber sole for added comfort. Style these lace-up Blue footwear with your daily workout pants and T-Shirt. Wipe clean with a dry cloth.",
+        "size": [9, 10, 11]
+      },
+      {
+        "color": "Grey",
+        "img": [
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf255e4fe/images/large/8392171_1.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw0f9303e9/images/large/8392171_2.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw93e9bf13/images/large/8392171_3.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwaf94b268/images/large/8392171_5.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9aae5660/images/large/8392171_6.jpeg?sw=1634",
+          "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwc3d66011/images/large/8392171_7.jpeg?sw=1634"
+        ],
+        "size": [7, 8, 9, 10, 11],
+        "description": "Flaunt with these stylish pair of Grey Running shoes for men from the fashion of Power. Featuring the best quality knitted mesh and Phylon sole, this pair of lace-up shoes can be styled with any jeans or track pants. Use a dry, clean cloth to wipe dust."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "brand": "Power",
+    "product": "POWER ATHLETIC SNEAKER FOR MEN",
+    "price":  1359.00,
+    "style": [
+      {
+        "color": "Grey",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwd1bcb352/images/large/8392078_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwcc4cab37/images/large/8392078_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw8d364f04/images/large/8392078_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwb2536615/images/large/8392078_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwcbb83117/images/large/8392078_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw453b8c4a/images/large/8392078_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw740e492e/images/large/8392078_7.jpeg?sw=1634"],
+        "size":[6,11], 
+        "description":"These athletic shoes are a must-have addition to your shoe collection. To complete your style, pair it with casual clothing. The upper is knitted mesh, and the sole is phylon with slip-on detailing, making this the ideal choice for providing the utmost comfort to your feet. These Grey shoes with a white sole are suitable for keeping your feet comfortable throughout the day. Wipe with a clean and dry cloth to remove dust. Do not use shiner or polish."
+
+      },
+      {
+        "color": "Black",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw0af908a3/images/large/8396078_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf9c7c4c0/images/large/8396078_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw77361f29/images/large/8396078_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6a2f879c/images/large/8396078_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw1c71c103/images/large/8396078_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw1e1719c0/images/large/8396078_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw09ff8cc9/images/large/8396078_7.jpeg?sw=1634"],
+        "size":[6,7,8,9,10,11], 
+        "description":"These athletic shoes are a must-have addition to your shoe collection. To complete your style, pair it with casual clothing. The upper is knitted mesh, and the sole is phylon with slip-on detailing, making this the ideal choice for providing the utmost comfort to your feet. These Black shoes with a white sole are suitable for keeping your feet comfortable throughout the day. Wipe with a clean and dry cloth to remove dust. Do not use shiner or polish."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Power",
+    "product": "POWER OUTDOOR SHOES FOR MEN",
+    "price": 1999,
+    "style": [
+      {
+        "color": "Blue",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw293b7037/images/large/8339197_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dweb99bb2a/images/large/8339197_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw0e120ae7/images/large/8339197_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw17ccea14/images/large/8339197_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9ffdb1ac/images/large/8339197_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw2fd1b7cd/images/large/8339197_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwabd45984/images/large/8339197_7.jpeg?sw=1634"],
+        "size":[6,7,8,9,10,11],
+        "description":"If you think the idea of a pair of stout leather boots seems a bit quaint, get yourself a pair of these specialist outdoor shoes in Black from the house of Power. Made with Genuine Leather uppers along with Phylon and Rubber sole, this pair will give you maximum grip on loose surfaces as well as be comfortable for all day use."
+      },
+      {
+        "color": "Brown",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwdb5ac3dc/images/large/8334197_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw41298d98/images/large/8334197_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwca3b3ac9/images/large/8334197_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw85f30322/images/large/8334197_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw4e5f0228/images/large/8334197_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw31f370ae/images/large/8334197_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwef71edb7/images/large/8334197_7.jpeg?sw=1634"],
+        "size":[6,7,8,9,10,11],
+        "description":"If you think the idea of a pair of stout leather boots seems a bit quaint, get yourself a pair of these specialist outdoor shoes in Brown from the house of Power. Made with Genuine Leather uppers along with Phylon and Rubber sole, this pair will give you maximum grip on loose surfaces as well as be comfortable for all day use."
+      }
+    ]
+
+  },
+  {
+    "id": 3,
+    "brand": "Power",
+    "product": "POWER RUNNING SHOES FOR MEN",
+    "price": 1359.00,
+    "style": [
+      {
+        "color": "Black",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwbdbb53cf/images/large/8396295_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw90d5b926/images/large/8396295_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf7076238/images/large/8396295_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwad670882/images/large/8396295_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw56bd44a7/images/large/8396295_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwa38536c5/images/large/8396295_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw019bc963/images/large/8396295_7.jpeg?sw=1634"],
+        "size":[6,7,10],
+        "description":"Begin your fitness journey in great style and comfort with a pair of these excellent Black running shoes for men from the house of Power. These high quality footwear items are constructed from PU and Mesh uppers along with Phylon and TPR soles. Feel free to pair these with a pair of Black running shorts, a breathable t shirt and a sweatband for your daily runs."
+      },
+      {
+        "color": "Grey",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwd1d7f76b/images/large/8392295_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9943abe6/images/large/8392295_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw58535358/images/large/8392295_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwae9f300d/images/large/8392295_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw659b158b/images/large/8392295_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf06ab086/images/large/8392295_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwc6cf9ff4/images/large/8392295_7.jpeg?sw=1634"],
+        "size":[6,8,9,10],
+        "description":"Begin your fitness journey in great style and comfort with a pair of these excellent Grey running shoes for men from the house of Power. These high quality footwear items are constructed from PU and Mesh uppers along with Phylon and TPR soles. Feel free to pair these with a pair of Black running shorts, a breathable t shirt and a sweatband for your daily runs."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Power",
+    "product": "WEINBRENNER SNEAKER FOR MEN",
+    "price": 1699,
+    "style": [
+      {
+        "color": "Black",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw5122488e/images/large/8296216_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw435cd9a7/images/large/8296216_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf5f27106/images/large/8296216_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwcfe86f38/images/large/8296216_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw4eabce0a/images/large/8296216_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw48522b3e/images/large/8296216_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw11f58abe/images/large/8296216_7.jpeg?sw=1634"],
+        "size":[6,7,8,9,10,11],
+        "description":"Introducing the WEINBRENNER Black Mesh Shoe - The Ultimate in Comfort and Style! Elevate your footwear collection with the cutting-edge WEINBRENNER Mesh Shoe. Crafted to provide you with unparalleled comfort and a touch of elegance, this shoe is a true masterpiece."
+      },
+      {
+        "color": "Turqblue",
+        "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwc5aedfcb/images/large/8299216_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw5a381bc0/images/large/8299216_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw76fb899c/images/large/8299216_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw3b02bf3d/images/large/8299216_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf7239167/images/large/8299216_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwc2605a30/images/large/8299216_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwaad9e11e/images/large/8299216_7.jpeg?sw=1634"],
+        "size":[6,7,8,9,10,11],
+        "description": "Introducing the WEINBRENNER Turqblue Mesh Shoe - The Ultimate in Comfort and Style! Elevate your footwear collection with the cutting-edge WEINBRENNER Mesh Shoe. Crafted to provide you with unparalleled comfort and a touch of elegance, this shoe is a true masterpiece. "
+      }
+    ]
+  
+  }
+]

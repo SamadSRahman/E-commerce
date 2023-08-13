@@ -1,0 +1,37 @@
+.productList{
+    display: flex;
+   gap: 1%;
+}
+.productCard{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productCard h5,span{
+    position: relative;
+    top: -20%;
+}
+.productCard span{
+    color: red;
+    font-weight: bold;
+}
+@media screen and (max-width:750px) {
+    .productList{
+        flex-direction: column;
+    }
+    .productCard img{
+        width: 70%;
+    }
+    .productCard h5,span{
+       margin-top: -10%;
+    }
+    
+}

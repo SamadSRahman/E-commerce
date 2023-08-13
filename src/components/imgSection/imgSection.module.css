@@ -1,0 +1,59 @@
+.container{
+    /* border: 1px solid; */
+    width: 65%;
+    height: 80%;
+    display: flex;
+}
+
+.thumbnails{   
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+
+ 
+}
+.thumbnailsImg{
+    width: 70%;
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+    
+}
+.thumbnailsImg:hover{
+
+    transform: scale(1.3);
+}
+.displayImg{
+    position: relative;
+    left: 6%;
+    top: -1%;
+    width: 85%;
+}
+.imgBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+.leftSection{
+    display: flex;
+}
+@media screen and (max-width: 750px) {
+
+    .thumbnails{
+        display: none;
+        background-color: black;
+    }
+    .container{
+        width: 100%;
+    }
+    .leftSection{
+        width: 100%;
+        display: flex;
+       align-items: center;
+        justify-content: center;
+       
+    }
+}
