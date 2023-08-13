@@ -6,6 +6,7 @@ import { useRecoilState, useRecoilValue } from "recoil";
 import  { dataAtom, imgAtom, imgCountAtom, displayImgAtom, showImgAtom } from "./atoms/atoms";
 import ProductList from "./components/productList/ProductList";
 import axios from "axios";
+import Header from "./components/header/Header";
 
 function App() {
   const [productData, setProductData] = useRecoilState(dataAtom);
@@ -28,7 +29,9 @@ function App() {
 
   return (
     <div className="App">
+            <Header/>
       <div className="upperSection">
+ 
       <ImgSection />
       <DescriptionSection />
       </div>

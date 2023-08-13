@@ -1,5 +1,7 @@
 .upperSection{
 display: flex;
+position: relative;
+top: 4rem;
 }
 
 @media screen and (max-width:750px){
