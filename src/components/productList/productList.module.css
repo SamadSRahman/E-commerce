@@ -7,13 +7,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid; */
+
+    cursor: pointer;
 
 }
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 5rem;
 }
 .productCard h5,span{
     position: relative;

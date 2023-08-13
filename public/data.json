@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "brand": "Power",
+    "brand": "https://www.bata.in/on/demandware.static/-/Sites-bata-in-Library/en_IN/dw4064e7aa/brand/power.png",
     "product": "POWER SNEAKER FOR MEN",
     "price":  1250,
     "style": [
@@ -35,7 +35,7 @@
   },
   {
     "id": 1,
-    "brand": "Power",
+    "brand": "https://www.bata.in/on/demandware.static/-/Sites-bata-in-Library/en_IN/dw4064e7aa/brand/power.png",
     "product": "POWER ATHLETIC SNEAKER FOR MEN",
     "price":  1359.00,
     "style": [
@@ -56,7 +56,7 @@
   },
   {
     "id": 2,
-    "brand": "Power",
+    "brand": "https://www.bata.in/on/demandware.static/-/Sites-bata-in-Library/en_IN/dw4064e7aa/brand/power.png",
     "product": "POWER OUTDOOR SHOES FOR MEN",
     "price": 1999,
     "style": [
@@ -64,7 +64,7 @@
         "color": "Blue",
         "img": ["https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw293b7037/images/large/8339197_1.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dweb99bb2a/images/large/8339197_2.jpeg?sw=1634", "https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw0e120ae7/images/large/8339197_3.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw17ccea14/images/large/8339197_4.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw9ffdb1ac/images/large/8339197_5.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw2fd1b7cd/images/large/8339197_6.jpeg?sw=1634","https://www.bata.in/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwabd45984/images/large/8339197_7.jpeg?sw=1634"],
         "size":[6,7,8,9,10,11],
-        "description":"If you think the idea of a pair of stout leather boots seems a bit quaint, get yourself a pair of these specialist outdoor shoes in Black from the house of Power. Made with Genuine Leather uppers along with Phylon and Rubber sole, this pair will give you maximum grip on loose surfaces as well as be comfortable for all day use."
+        "description":"If you think the idea of a pair of stout leather boots seems a bit quaint, get yourself a pair of these specialist outdoor shoes in Blue from the house of Power. Made with Genuine Leather uppers along with Phylon and Rubber sole, this pair will give you maximum grip on loose surfaces as well as be comfortable for all day use."
       },
       {
         "color": "Brown",
@@ -77,7 +77,7 @@
   },
   {
     "id": 3,
-    "brand": "Power",
+    "brand": "https://www.bata.in/on/demandware.static/-/Sites-bata-in-Library/en_IN/dw4064e7aa/brand/power.png",
     "product": "POWER RUNNING SHOES FOR MEN",
     "price": 1359.00,
     "style": [
@@ -97,7 +97,7 @@
   },
   {
     "id": 4,
-    "brand": "Power",
+    "brand": "https://www.bata.in/on/demandware.static/-/Sites-bata-in-Library/en_IN/dwcfec431b/brand/weinbrenner.png",
     "product": "WEINBRENNER SNEAKER FOR MEN",
     "price": 1699,
     "style": [

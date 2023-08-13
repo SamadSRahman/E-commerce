@@ -45,6 +45,7 @@ height: 3rem;
 }
 .container{
     width: 35%;
+    padding-top: 10px;
 
 }
 @media screen and (max-width:750px){

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 import {
   displayImgAtom,
@@ -7,7 +7,6 @@ import {
   dataAtom,
   colorIndexAtom,
   selectedIdAtom,
-  showImgAtom,
 } from "../../atoms/atoms";
 import styles from "./imgSection.module.css";
 
@@ -18,28 +17,6 @@ export default function ImgSection() {
   const [img, setImg] = useRecoilState(imgAtom);
   const [displayImg, setDisplayImg] = useRecoilState(displayImgAtom);
   const [imgCount, setImgCount] = useRecoilState(imgCountAtom);
-  const [timeOutId, setTimeOutId] = useState(null);
-  const [showImg, setShowImg] = useRecoilState(showImgAtom)
-
-  // function startImageChange() {
-  //   const timeout = setTimeout(() => {
-  //     if (imgCount < img.length - 1) setImgCount(imgCount + 1);
-  //     else setImgCount(0);
-  //   }, 3000);
-
-  //   setTimeOutId(timeout);
-
-  //   return () => {
-  //     clearTimeout(timeout);
-  //   };
-  // }
-  // useEffect(() => {
-  //   startImageChange();
-  // }, [imgCount]);
-
-  // const handleStopCounter = () => {
-  //   clearTimeout(timeOutId);
-  // };
 
   useEffect(() => {
     if (productData.length > 0) {
@@ -80,26 +57,7 @@ export default function ImgSection() {
           ◀
         </button>
         <div>
-          <div className={styles.imgDiv}
-          style={showImg ? {} : { display: 'none' }}
-          >
-            <h4
-              onClick={()=>setShowImg(false)}
-            >❌</h4>
-          <img
-              className={styles.bigImage}
-              style={showImg ? { opacity: '1' } :{}}
-            src={displayImg}  alt="product img" />
-          </div>
-          <img
-            className={styles.displayImg}
-            onClick={() => {
-              setShowImg(!showImg)
-            
-            }}
-       
-            src={displayImg}
-          ></img>
+          <img className={styles.displayImg} src={displayImg}></img>
         </div>
         <button className={styles.imgBtn} onClick={handleNextImg}>
           ▶

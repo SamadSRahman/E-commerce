@@ -44,8 +44,8 @@ export default function DescriptionSection() {
     setColor(style[index].color);
     setImg(productData[selectedId].style[index].img);
     setDisplayImg(img[imgCount]);
-      setSize(productData[0].style[index].size);
-      setDescription(productData[0].style[index].description)
+      setSize(productData[selectedId].style[index].size);
+      setDescription(productData[selectedId].style[index].description)
   }
 
   function handleSizeChange(size) {
@@ -54,7 +54,7 @@ export default function DescriptionSection() {
   }
   return (
     <div className={styles.container}>
-      <h2> {brand}</h2>
+      <img width={'30%'} src={brand}/> 
       <h3>{productName}</h3>
       <h3 className={styles.priceTag}>₹ {productPrice}.00</h3>
       <h4>COLOR: {color} </h4>
