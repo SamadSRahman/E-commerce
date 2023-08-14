@@ -2,9 +2,9 @@
 
 ### **Deployment Link** : [E-commerce website link](https://e-commerce-eight-phi.vercel.app/)
 
-![Desktop Version UI] (https://e-commerce-eight-phi.vercel.app/E-commerce-home.png)
+![Desktop Version UI](https://e-commerce-eight-phi.vercel.app/E-commerce-home.png)
 
-![Mobile Version UI] (https://e-commerce-eight-phi.vercel.app/Mobile- version home.png)
+![Mobile Version UI](https://e-commerce-eight-phi.vercel.app/Mobile-version-home.png)
 
 This is a simple demo e-commerce website built using React.js, HTML, and CSS. The website fetches product data from an API and displays information about the products. The website is responsive and utilizes the following libraries: Recoil, React Icons, and Axios.
 
